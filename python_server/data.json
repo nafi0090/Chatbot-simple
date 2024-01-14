@@ -1,0 +1,44 @@
+{
+  "intens": [
+    {
+      "tags": "error",
+      "patterns": [""],
+      "responses": ["Mohon maaf, saya hanya bisa menjawab tentang pendaftaran E-KTP."]
+    },
+    {
+      "tags": "salam",
+      "patterns": ["hai", "halo", "hallo", "salam", "hola", "permisi", "mau tanya", "min"],
+      "responses": ["Halo! ada yang bisa saya bantu.", "Hai! senang bertemu denganmu, silahkan jika ingin bertanya"]
+    },
+    {
+      "tags": "salam2",
+      "patterns": ["Assalamu'alaikum", "Assalamualaikum", "Assalamu'alaikum Warahmatullahi", "Assalamualaikum Warahmatullahi Wabarakatuh"],
+      "responses": ["Wa'alaikumsalam warahmatullahi Wabarakatuh"]
+    },
+    {
+      "tags": "salam3",
+      "patterns": ["Selamat pagi", "  ", "good morning", "morning"],
+      "responses": ["Selamat pagi", "Good morning"]
+    },
+    {
+      "tags": "salam4",
+      "patterns": ["Selamat siang", "siang", "good afternoon", "afternoon"],
+      "responses": ["Selamat siang", "Good afternoon"]
+    },
+    {
+      "tags": "salam5",
+      "patterns": ["Selamat malam", "malam", "good night", "night"],
+      "responses": ["Selamat malam", "Good night"]
+    },
+    {
+      "tags": "terimakasih",
+      "patterns": ["Terima kasih", "makasih", "trims", "oke", "sangat membantu"],
+      "responses": ["Senang bisa membantu", "Tentu tidak masalah", "terimakasih kembali"]
+    },
+    {
+      "tags": "pendaftaran",
+      "patterns": "Daftar",
+      "responses": "Saya akan membantu anda melakukan proses pendaftaran E-KTP. Silahkan siapkan dokumen-dokumen yang diperlukan seperti Kartu Keluarga (KK)"
+    }
+  ]
+}
